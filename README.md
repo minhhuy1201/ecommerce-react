@@ -1,3 +1,5 @@
+## Link web deployed: https://ecommerce-react-testttt.netlify.app/
+
 # Salinaka | E-commerce react app
 Simple ecommerce react js app with firebase [typescript].
 ![Firebase Deploy](https://github.com/jgudo/ecommerce-react/workflows/Firebase%20Deploy/badge.svg)
@@ -31,13 +33,13 @@ VITE_FIREBASE_STORAGE_BUCKET=yourstoragebucket.appspot.com
 VITE_FIREBASE_MSG_SENDER_ID=43597918523958
 VITE_FIREBASE_APP_ID=234598789798798fg3-034
 
-``` 
+```
 
 After setting up necessary configuration,
 create a **Database** and choose **Cloud Firestore** and start in test mode
 
 ### 3. Run development server
-```sh 
+```sh
 $ yarn dev
 ```
 
@@ -52,7 +54,7 @@ $ yarn build
 1. Navigate to your site to `/signup`
 2. Create an account for yourself
 3. Go to your firestore collection `users collection` and edit the account you've just created. Change the role from `USER` to `ADMIN`.
-4. Reload or sigin again to see the changes. 
+4. Reload or sigin again to see the changes.
 
 **Firebase Admin to be integrated soon**
 
