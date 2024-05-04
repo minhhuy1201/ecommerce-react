@@ -6,10 +6,6 @@ import { EventHubProducerClient } from '@azure/event-hubs'
 import * as dotenv from 'dotenv'
 dotenv.config()
 
-// Define connection string and related Event Hubs entity name here
-const connectionString = process.env.EVENTHUB_CONNECTION_STRING
-const eventHubName = process.env.EVENTHUB_NAME
-
 const { EventHubProducerClient } = require('@azure/event-hubs')
 const { InteractiveBrowserCredential } = require('@azure/identity')
 const {
